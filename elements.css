@@ -1,0 +1,41 @@
+@import url('/colors.css');
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --outline-color: white;
+        --outline-contrast: var(--primary-background);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --outline-color: var(--primary-background);
+        --outline-contrast: white;
+    }
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid var(--outline-color);
+    color: var(--outline-color);
+    padding: .5rem 1rem;
+    border-radius: 100vh;
+    font-weight: 400;
+    font-size: large;
+    margin: 0 1rem;
+    transition: padding 200ms ease, margin 200ms ease, color 200ms ease, background-color 200ms ease;
+}
+
+button:hover,
+button:focus-visible,
+button:active {
+    margin: 0;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+button:focus-visible,
+button:active {
+    color: var(--outline-contrast);
+    background-color: var(--outline-color);
+}
