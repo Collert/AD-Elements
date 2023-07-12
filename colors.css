@@ -1,5 +1,30 @@
-:root {
-    --primary-background: #242424;
+:root{
+    --primary-background: #222222;
+    --primary-contrast: whitesmoke;
+    --error-color: salmon;
+    --success-color: forestgreen;
     --golden-accent: #d1af94;
     --rose-accent: #d19494;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-background: #222222;
+        --primary-contrast: whitesmoke;
+    }
+    html.force-light {
+        --primary-background: whitesmoke;
+        --primary-contrast: #222222;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary-background: whitesmoke;
+        --primary-contrast: #222222;
+    }
+    html.force-dark {
+        --primary-background: #222222;
+        --primary-contrast: whitesmoke;
+    }
 }
