@@ -3,8 +3,8 @@
     --primary-contrast: whitesmoke;
     --error-color: salmon;
     --success-color: forestgreen;
-    --golden-accent: #d1af94;
-    --rose-accent: #d19494;
+    --accent-1: #d1af94;
+    --accent-2: #d19494;
 }
 
 @media (prefers-color-scheme: dark) {
