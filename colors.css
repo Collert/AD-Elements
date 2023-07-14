@@ -1,4 +1,5 @@
-:root{
+:root,
+::backdrop{
     --primary-background: #222222;
     --primary-contrast: whitesmoke;
     --error-color: salmon;

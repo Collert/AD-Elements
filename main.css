@@ -2,6 +2,7 @@
 @import url('/colors.css');
 @import url('/buttons.css');
 @import url('/links.css');
+@import url('/dialog.css');
 
 :root {
     --icon-font-size: 24px;
