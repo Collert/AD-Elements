@@ -2,6 +2,10 @@ a:not(.no-style) {
     text-decoration: none;
 }
 
+a:not(.no-style):visited {
+    --_highlight-color: var(--accent-2);
+}
+
 a:not(.no-style):not(.button) {
     --_highlight-color: var(--accent-1);
 

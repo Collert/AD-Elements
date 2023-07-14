@@ -2,10 +2,10 @@
 ::backdrop{
     --primary-background: #222222;
     --primary-contrast: whitesmoke;
-    --error-color: salmon;
-    --success-color: forestgreen;
     --accent-1: #d1af94;
     --accent-2: #d19494;
+    --error-color: salmon;
+    --success-color: forestgreen;
 }
 
 @media (prefers-color-scheme: dark) {
