@@ -3,6 +3,7 @@
 @import url('/buttons.css');
 @import url('/links.css');
 @import url('/dialog.css');
+@import url('/inputs.css');
 
 :root {
     --icon-font-size: 24px;
@@ -15,4 +16,8 @@
 
 body {
     background-color: var(--primary-background);
+}
+
+svg.ui-icon {
+    fill: var(--primary-contrast);
 }
