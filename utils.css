@@ -54,3 +54,10 @@
 .darken-9 {
     filter: brightness(0.1);
 }
+
+/* Positioning */
+
+.center-grid {
+    display: grid;
+    place-items: center;
+}
