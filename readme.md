@@ -1,13 +1,12 @@
-# Bootstrap but cool
+# Welcome to AD-Elements!
 
-## English
+![image](https://github.com/Collert/AD-Elements/assets/17819526/fd8b4e2b-ff37-4dfd-b39d-f17e45d57071)
 
-### Overview
+This CSS framework is designed to change all standard HTML elements' look completely. Akin to Bootstrap, this framework is a collection of premade elements and aims to achieve a particular look for your websites. You can customize the default colours to suit your brand better. (See [customization](https://github.com/Collert/AD-Elements/wiki/Customization))
 
-Howdy and welcome to my UI library! This one is designed to be a full custom skin that replaces all (or mostly all) standard HTML elements. Although every element is styled by default, you can omit styling of any particular one by adding a `no-style` class to it.
+## Getting started
 
-### Table of contents
-
-1. [Buttons](#buttons)
-
-### Buttons
+Check out 
+* [Installation](https://github.com/Collert/AD-Elements/wiki/Installation)
+* [General rules](https://github.com/Collert/AD-Elements/wiki/General-rules)
+* [Customization](https://github.com/Collert/AD-Elements/wiki/Customization)
