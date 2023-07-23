@@ -16,6 +16,8 @@
 
 body {
     background-color: var(--primary-background);
+    margin: 0;
+    box-sizing: border-box;
 }
 
 svg.ui-icon {
