@@ -20,7 +20,7 @@ a:hover:not(.no-style):not(.button):not(.no-anim) {
     transform: translateY(-3px);
 }
 
-a:not(.no-style):not(.button)::after {
+a:not(.no-style):not(.button):not(.no-anim)::after {
     content: '';
     position: absolute;
     background-color: var(--_highlight-color);
