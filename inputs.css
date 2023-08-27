@@ -2,7 +2,7 @@ input:not(.no-style) {
     --_border-color: var(--primary-contrast);
     
     background-color: var(--primary-background);
-    border: 2px solid var(--primary-contrast);
+    border: 2px solid var(--_border-color);
     border-radius: 100vh;
     transition: all 300ms ease;
     padding: .5rem;
