@@ -3,7 +3,7 @@
 @import url('https://cdn.jsdelivr.net/gh/Collert/AD-Elements@latest/buttons.css');
 @import url('https://cdn.jsdelivr.net/gh/Collert/AD-Elements@latest/links.css');
 @import url('https://cdn.jsdelivr.net/gh/Collert/AD-Elements@latest/dialog.css');
-@import url('https://cdn.jsdelivr.net/gh/Collert/AD-Elements@latest/inputs.css');
+@import url('https://cdn.jsdelivr.net/gh/Collert/AD-Elements@master/inputs.css');
 
 :root {
     --icon-font-size: 24px;
